@@ -6,8 +6,8 @@ DSIA-5102A : Application Full Stack Data
 Dans le cadre de l'unité DSIA-5102A de 5ème année à l'ESIEE Paris, nous devons créer une application web en réfléchissant à l'utilité du produit.
 Pour cela, nous devons décorréler la partie backend de l'application du frontend de celle-ci. Nous avons donc créer deux sous projets de l'application avec deux technologies différentes : 
 
-- backend : FastApi
-- frontend : React
+- backend : **FastApi**
+- frontend : **React JS**
 
 Nous avons donc décidé de créer une application de e-commerce. 
 Cette application contient un formulaire d'utilisateur, son authentification et la gestion de produits ajoutés.
@@ -19,7 +19,7 @@ Cloner la base du projet : https://github.com/Xianlilxl/Projet_E_Commerce_FastAP
 
 Il y a deux façon différentes de lancer le projet selon vos préférences et les capacités de votre ordinateur.
 
-1. La première possibilité est de lancer les deux sous projets sous docker.
+1. *La première possibilité est de lancer les deux sous projets sous docker.*
 
 Mettez-vous dans le dossier contenant cette base de projet puis lancer cette commande dans un terminal/prompt :   
 
@@ -27,7 +27,7 @@ Mettez-vous dans le dossier contenant cette base de projet puis lancer cette com
 
   > docker-compose up --build
 
-2. La deuxième possibilité est de lancer les sous projets l'un après l'autre. 
+2. *La deuxième possibilité est de lancer les sous projets l'un après l'autre.*
 
 C'est à dire que le backend peut être lancé sous docker et le frontend est quant à lui lancé de son côté.
 Pour faire cela, il suffit de ne pas appeler le service react sous docker.
@@ -97,7 +97,7 @@ Afin de pouvoir lier ces deux parties, nous avons essentiellement utiliser **Axi
 Visualisation et explication des pages
 --------------------------------------
 
-La page d'accueil contient l'affichage de tous les produits.
+La **page d'accueil** contient l'affichage de tous les produits.
 
 .. image:: ./images/home.JPG
    :width: 500
@@ -108,12 +108,12 @@ Cette application contient une barre de navigation où vous pouvez vous connecte
 
 Lorsque vous appuyez sur Connexion, une page de connexion apparaît ou si vous ne posséder pas encore de compte, vous avez la possibilité de créer un compte.
 
-La page d'inscription ressemble à l'image ci-dessous : 
+La **page d'inscription** ressemble à l'image ci-dessous : 
 
 .. image:: ./images/inscription.JPG 
    :width: 600
 
-Quant à la page de connexion : 
+Quant à la **page de connexion** : 
 
 .. image:: ./images/login.JPG
    :width: 600
@@ -131,39 +131,39 @@ Voici, un aperçu des options disponibles :
 .. image:: ./images/compte.png
    :width: 600
 
-La première option est l'accès au profil du compte connecté. Cette option comprend la modification du compte. 
+La première option est l'accès au **profil du compte connecté**. Cette option comprend la modification du compte. 
 
 .. image:: ./images/profile.JPG
    :width: 600
    
-Puis, en étant connecté, vous pouvez gérer les produits, c'est à dire voir la liste de tous les produits, ajouter de nouveaux produits, les modifier ou encore les supprimer.
+Puis, en étant connecté, vous pouvez gérer les produits, c'est à dire voir **la liste de tous les produits**, ajouter de nouveaux produits, les modifier ou encore les supprimer.
 
 .. image:: ./images/liste_produit.JPG
    :width: 600
    
 Sur cette page, il est possible alors possible d'accéder aux pages qui permettent d'ajouter un produit, en modifier un selon son identifiant ou encore le supprimer.
 
-La page d'ajout de produit :
+**La page d'ajout de produit** :
 
 .. image:: ./images/ajout_produit.JPG
    :width: 600
    
-La page de modification de produit : 
+**La page de modification de produit** : 
 
 .. image:: ./images/modif_produit.JPG
    :width: 600
    
-Ensuite, quant à la visualisation de la liste des utilisateurs, il est également possible d'en supprimer un. 
+Ensuite, quant à la visualisation de **la liste des utilisateurs**, il est également possible d'en supprimer un. 
 
 .. image:: ./images/list_user.JPG
    :width: 600
    
-Ensuite, si vous vous placez sur la page d'accueil, il est possible de cliquer sur un produit qui vous intéresse. Cela vous redigigera vers la fiche descriptif du produit. Sur cette page, il vous sera possible d'ajouter le produit dans votre panier en choisissant la quantité souhaité.
+Ensuite, si vous vous placez sur la page d'accueil, il est possible de cliquer sur un produit qui vous intéresse. Cela vous redigigera vers **la fiche descriptif du produit**. Sur cette page, il vous sera possible d'ajouter le produit dans votre panier en choisissant la quantité souhaité.
 
 .. image:: ./images/produit.JPG
    :width: 600
    
-Enfin, nous avons également créer une page pour le panier. Cette page regroupe tous les articles ajoutés au panier et le prix selon la quantité choisis.
+Enfin, nous avons également créer une page pour **le panier**. Cette page regroupe tous les articles ajoutés au panier et le prix selon la quantité choisis.
 Voici un exemple : 
 
 .. image:: ./images/panier.JPG
