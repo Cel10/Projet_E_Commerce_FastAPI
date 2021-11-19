@@ -29,7 +29,7 @@ Mettez-vous dans le dossier contenant cette base de projet puis lancer cette com
 
 2. *La deuxième possibilité est de lancer les sous projets l'un après l'autre.*
 
-C'est à dire que le backend peut être lancé sous docker et le frontend est quant à lui lancé de son côté.
+C'est à dire que le back-end peut être lancé sous docker et le front-end est quant à lui lancé de son côté.
 Pour faire cela, il suffit de ne pas appeler le service react sous docker.
 Ainsi, il faut modifier le fichier **docker_compose.yml**. Il faut mettre en commentaire le code de la **ligne 29 à la ligne 39**.
 
@@ -47,13 +47,13 @@ Puis, il faut également modifier le fichier **frontend/package.json**. Il faut 
 
 Suite à ces modifications, vous pouvez lancer le projet.
 
-Pour cela, placez vous à la base du projet et lancez le backend :
+Pour cela, placez vous à la base du projet et lancez le back-end :
 
 .. code-block:: bash
 
   > docker-compose up --build
 
-Puis, lancez le frontend en parallèle :
+Puis, lancez le front-end en parallèle :
 
 .. code-block:: bash
 
@@ -174,7 +174,7 @@ Voici un exemple :
    
 Amélioration
 ------------  
-Nous avons donc créer une application fullstack complète, c'est à dire contenant une partie back-end et front-end.
+Nous avons donc créer une application fullstack complète, c'est à dire contenant une partie back-end et une partie front-end fonctionnelles.
 
 Nous proposons néanmoins quelques axes d'amélioration : 
 
