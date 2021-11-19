@@ -179,4 +179,4 @@ Nous avons donc créer une application fullstack complète, c'est à dire conten
 Nous proposons néanmoins quelques axes d'amélioration : 
 
 - l'ajoût de commentaires et d'une note d'un utilisateur sur un produit,
-- la distinction de l'application d'un utilisateur et d'un utilisateur administrateur. 
+- la distinction de l'application d'un utilisateur lambda et d'un utilisateur administrateur. 
