@@ -66,6 +66,34 @@ L’application web sera accessible sur votre localhost du port 3000 : http://lo
 
 Et l'interface intéractive du backend est disponible sur le port 5000 : http://localhost:5000/docs/.
 
+
+Backend et Frontend
+-------------------
+Backend : Développement des fonctionnalités de l'application
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le backend n'est pas visible pour un utilisateur d'une application mais c'est la partie qui permet de définir toutes les fonctionnalités d'une application. 
+Cette partie est alors essentielle au bon fonctionnement d'une appication, notamment afin de développer et mettre en intéraction ces trois pilliers : 
+
+- Le serveur d'hébergement
+- L'application web
+- La base de données
+
+Ainsi, pour cette partie, nous avons majoritairement codé en **Python** et **SQL**. Et nous avons choisis d'utiliser le framework **FastAPI** pour notre application.
+
+Le développement de cette partie a été étudié grâce à l'interface intéractif accessible sur le port 5000 du localhost : http://localhost:5000/docs/.
+
+Frontend : Développement de l'interface graphique
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le frontend représente la partie visible de l'application. En effet, cette partie va mettre en place tous les éléments graphiques qui permettent à l'utilisateur de se répérer sur l'application. C'est à dire que les intéractions, l'esthétique, les animations et d'autres sont gérés par le frontend. 
+Cette partie repose evidemment sur la partie backend. C'est alors dans le frontend que l'on fait appel au backend, afin de pouvoir les connecter.
+
+Ainsi, pour cette partie du projet, nous avons majoritairement codé en **JavaScript** et en **CSS**. Et nous avons choisis d'utiliser le framework **React JS** afin de créer le frontend de notre application.
+
+Afin de pouvoir lier ces deux parties, nous avons essentiellement utiliser **Axios** qui est une bibliothèque JavaScript. 
+
+
 Visualisation et explication des pages
 --------------------------------------
 
