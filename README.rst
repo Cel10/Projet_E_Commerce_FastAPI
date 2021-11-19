@@ -113,6 +113,8 @@ La **page d'inscription** ressemble à l'image ci-dessous :
 .. image:: ./images/inscription.JPG 
    :width: 600
 
+Il suffit de renseigner les informations demandées. La base de données n'accepte pas les noms d'utilisateur et adresse email déjà existants.
+
 Quant à la **page de connexion** : 
 
 .. image:: ./images/login.JPG
